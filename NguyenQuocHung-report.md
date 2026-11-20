@@ -50,11 +50,26 @@ Bạn kiểm lô của tôi: Hoàng Trọng Trà    Quyết định nhận đư�
 | NguyenQuocHung-fisheye.zip | Có | 3 / 3 | 10 / 10 | Có (`camera = fisheye_front`) |
 
 ## 6. Ảnh chụp màn hình
-*(Học viên chèn 4 ảnh chụp màn hình vào các mục dưới đây)*:
-1. Tab Labels của project `d11-road-NguyenQuocHung` trên CVAT.
-2. Một ảnh camera trước (front) đã gán đủ các thành phần (làn, drivable, đèn/biển).
-3. Một ảnh fisheye đã gán (phóng to đoạn polyline cong uốn theo thấu kính).
-4. Một đoạn XML trích xuất từ file export có chứa thẻ `<polyline label="lane">`.
+1. Tab Labels của project `d11-road-NguyenQuocHung` trên CVAT:
+   ![Tab Labels](screenshots/01-labels.png)
+
+2. Một ảnh camera trước (front) đã gán đủ các thành phần (làn, drivable, đèn/biển):
+   ![Front Annotation](screenshots/02-front.png)
+
+3. Một ảnh fisheye đã gán (phóng to đoạn polyline cong uốn theo thấu kính):
+   ![Fisheye Curve](screenshots/03-fisheye-curve.png)
+
+4. Một đoạn XML trích xuất từ file export có chứa thẻ `<polyline label="lane">`:
+   ![XML Snippet](screenshots/04-xml.png)
+
+   ```xml
+   <polyline label="lane" occluded="0" points="111.67,720.00;182.17,657.98;257.96,594.01;283.92,570.06;304.51,554.48;316.40,543.80;337.46,525.83;346.13,518.88;355.04,512.28;359.90,508.82" z_order="0">
+     <attribute name="position">L1</attribute>
+     <attribute name="style">dashed</attribute>
+     <attribute name="color">white</attribute>
+     <attribute name="kind">single</attribute>
+   </polyline>
+   ```
 
 ## 7. Tự đánh giá
 Lỗi bạn mắc nhiều nhất hôm nay (theo mã QC1-xx), và cách tránh ở Ngày 20:  
