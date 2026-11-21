@@ -4,12 +4,12 @@
   "guideline": "Road v1.0",
   "name": "NguyenQuocHung",
   "revision": 2,
-  "created_at": "2026-11-21T02:44:55+00:00",
+  "created_at": "2026-11-21T02:46:51+00:00",
   "files": [
     {
       "file": "NguyenQuocHung-front.zip",
-      "bytes": 60754,
-      "sha256": "175508e9632350cee2d28dfc17df42c21d57166f1b4b4ba368e7e647824c19c0",
+      "bytes": 61754,
+      "sha256": "3c1a1b0560a277bd0765ef32e227a8d44f57139156104447faf66bb126a2bfca",
       "contains_images": false,
       "images": 12,
       "images_unlabelled": 0,
@@ -19,7 +19,7 @@
         "drivable": 27,
         "lane": 32,
         "road_curb": 20,
-        "traffic_light": 33,
+        "traffic_light": 36,
         "traffic_sign": 23
       }
     },
